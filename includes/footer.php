@@ -67,12 +67,12 @@
                </div>
             </div>
          </div>
-         <div id="bottom" class="clearfix style-1">
+         <div id="bottom" style="background-color:#E8A900 !important;" class="clearfix style-1">
             <div class="container">
                <div id="bottom-bar-inner" class="wprt-container">
                   <div class="bottom-bar-inner-wrap">
                      <div class="bottom-bar-content">
-                        <div id="copyright">All Rights Reserved. Hajurlai Namaste © 2018, Powered By <a href="http://www.kaaikaas.com/" target="_blank" style="color:#FFBC13">Kaaikaas.com</a></div>
+                        <div id="copyright" style="color:white !important;">All Rights Reserved. Hajurlai Namaste © 2018, Powered By <a href="http://www.kaaikaas.com/" target="_blank" style="color:#990000 !important;">Kaaikaas.com</a></div>
                         <!-- /#copyright -->
                      </div>
                      <!-- /.bottom-bar-content 

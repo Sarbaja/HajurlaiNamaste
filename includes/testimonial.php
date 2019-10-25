@@ -8,11 +8,11 @@
 ?>
 
 
-<div id="testimonials" class="section db" style="background-color:#ccc !important;">
+<div id="testimonials" class="section db" style="background-color:white !important;">
          <div class="container">
             <div class="section-title row text-center">
                <div class="col-md-8 col-md-offset-2">
-                  <h3>Testimonials</h3>
+                  <h3 style="color:#E8A900 !important;">Testimonials</h3>
                   <p class="lead">What Our Client Says?</p>
                </div>
                <!-- end col -->
@@ -26,13 +26,13 @@
                         while($row = $result->fetch_assoc()) {
                     ?>
                      <div class="testimonial clearfix">
-                        <div class="desc">
+                        <div class="desc" style="background-color:#E8A900 !important;color:white !important;border: 1px solid #E8A900 !important;">
                            <h3><i class="fa fa-quote-left"></i><?php echo $row['subject']; ?></h3>
-                           <p class="lead"><?php echo $row['message']; ?></p>
+                           <p class="lead" style="color:white !important;"><?php echo $row['message']; ?></p>
                         </div>
                         <div class="testi-meta">
                            <img src="backend/<?php echo $row['image']; ?>" alt="" class="img-responsive alignleft">
-                           <h4><?php echo $row['name']; ?><small>- <?php echo $row['position']; ?></small></h4>
+                           <h4 style="color:black !important;"><?php echo $row['name']; ?><small>- <?php echo $row['position']; ?></small></h4>
                         </div>
                         <!-- end testi-meta -->
                      </div>
